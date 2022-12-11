@@ -1,0 +1,740 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.titulo {
+    position: absolute;
+    width: 351px;
+    height: 50px;
+    left: 10px;
+    top: 24px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125.9%;
+    /* or 50px */
+    color: #000000;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1260px;
+    height: 55px;
+    left: 10px;
+    top: 90px;
+
+    background: #FFFFFF !important;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/* .nav-bar subtitulo h1{ 
+    Width:61px;
+    Height: 30px;
+    Top:102px;
+    Left: 609px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    or 30px 
+
+    text-align: center;} */
+
+.btn {
+    position: absolute;
+    width: 292.32px;
+    height: 50px;
+    left: 977.68px;
+    top: 24px;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #252525 !important;
+    color: #FFFFFF !important;
+    display: inline-block !important;
+    padding: 12px 6px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1, 428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparente;
+    border-radius: 4px;
+    --webkit-User-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-primario {
+    color: #ffffff !important;
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1, 33;
+    border-radius: 6px;
+}
+
+.btn-sm,
+.btn-xs {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-xs {
+    padding: 1px 5px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-block+.btn-block {
+    margin-top: 5px;
+}
+
+.galeria-01 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado-esquerdo {
+    width: 50%;
+    height: auto;
+}
+
+.img-01 {
+    position: absolute;
+    Width: 727px;
+    Height: 295px;
+    Top: 155px;
+    Left: 10px;
+}
+
+.img-02 {
+    position: absolute;
+    Width: 220px;
+    Height: 240px;
+    Top: 460px;
+    Left: 10px;
+}
+
+.img-03 {
+    position: absolute;
+    width: 354px;
+    height: 295px;
+    left: 383px;
+    top: 460px;
+}
+
+.lado-direito {
+    width: 50%;
+    height: auto;
+}
+
+.foto {
+    position: absolute;
+    width: 515px;
+    height: 600px;
+    left: 755px;
+    top: 155px;
+}
+
+.lado-esquerdo-galeria-02 {
+    width: 50%;
+    height: auto;
+}
+
+.fotos-a {
+    position: absolute;
+    width: 515px;
+    height: 600px;
+    left: 10px;
+    top: 765px;
+}
+
+.lado-direito-galeria-02 {
+    width: 50%;
+    height: auto;
+}
+
+.fotos-b {
+    position: absolute;
+    width: 727px;
+    height: 295px;
+    left: 543px;
+    top: 765px;
+}
+
+.fotos-c {
+    position: absolute;
+    width: 354px;
+    height: 295px;
+    left: 543px;
+    top: 1070px;
+}
+
+.fotos-d {
+    position: absolute;
+    width: 354px;
+    height: 295px;
+    left: 916px;
+    top: 1070px;
+}
+
+.caixa-02 {
+    position: absolute;
+    width: 1280px;
+    height: 228px;
+    left: 0px;
+    top: 1375px;
+
+    background: #161616;
+}
+
+.caixa-02 h1 {
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1280px;
+    height: 228px;
+    left: 0px;
+    top: 1375px;
+
+    background: #161616;
+}
+
+.rodape {
+    width: 40%;
+    height: auto;
+    /* border: red solid 1px; */
+    color: #FFFFFF;
+}
+
+.texto-01 {
+    width: 100%;
+    height: 200px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125.9%;
+    /* or 50px */
+    color: #FFFFFF;
+}
+
+.icones {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+
+}
+
+.final {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 916px;
+    top: 1070px;
+}
+
+/* .caixa-galeria-1 .lado-esquerdo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(0, 0, 0, 0.62);
+} */
+
+.caixa-galeria-1 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 9px;
+    right: 0%;
+    top: 390px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-01 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-img01 {
+    position: absolute;
+    left: 20.68%;
+    right: 62.11%;
+    top: 14%;
+    bottom: 25%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-02 {
+    position: absolute;
+    left: 55.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.comentario-img01 {
+    position: absolute;
+    left: 72.47%;
+    right: 6.32%;
+    top: 14%;
+    bottom: 25%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-2 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 10px;
+    right: 0%;
+    top: 693px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-03 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-img02 {
+    position: absolute;
+    left: 23.68%;
+    right: 62.11%;
+    top: 16%;
+    bottom: 25%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+
+    color: #FFFFFF;
+}
+
+.emoji-04 {
+    position: absolute;
+    left: 55.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.comentarios-img02 {
+    position: absolute;
+    left: 72.47%;
+    right: 6.32%;
+    top: 14%;
+    bottom: 25%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-3 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 383px;
+    right: 0%;
+    top: 693px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-05 {
+    position: absolute;
+    left: 8px;
+    right: 81.58%;
+    top: 30%;
+    bottom: 25%;
+}
+
+.coracoes-img03 {
+    position: absolute;
+    left: 20.68%;
+    right: 62.11%;
+    top: 19%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-06 {
+    position: absolute;
+    left: 61%;
+    right: 0%;
+    top: 30%;
+    bottom: 0%;
+}
+
+.comentarios-img03 {
+    position: absolute;
+    left: 80%;
+    right: 62.11%;
+    top: 23%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-4 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 755px;
+    right: 0%;
+    top: 693px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-07 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 27%;
+    bottom: 25%;
+}
+
+.coracoes-foto {
+    position: absolute;
+    left: 19.68%;
+    right: 62.11%;
+    top: 17%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-08 {
+    position: absolute;
+    left: 58.63%;
+    right: 81.58%;
+    top: 27%;
+    bottom: 25%;
+}
+
+.comentario-foto {
+    position: absolute;
+    left: 74.68%;
+    right: 62.11%;
+    top: 17%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-5 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 10px;
+    right: 0%;
+    top: 1303px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-09 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-foto-a {
+    position: absolute;
+    left: 18.68%;
+    right: 62.11%;
+    top: 17%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-10 {
+    position: absolute;
+    left: 63.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.comentarios-foto-a {
+    position: absolute;
+    left: 81.68%;
+    right: 62.11%;
+    top: 17%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-6 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 543px;
+    right: 0%;
+    top: 999px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-11 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-fotos-b {
+    position: absolute;
+    left: 18.68%;
+    right: 62.11%;
+    top: 16%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-12 {
+    position: absolute;
+    left: 61.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.comentarios-fotos-b {
+    position: absolute;
+    left: 78.68%;
+    right: 62.11%;
+    top: 16%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-7 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 543px;
+    right: 0%;
+    top: 1304px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-13 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-foto-c {
+    position: absolute;
+    left: 18.68%;
+    right: 62.11%;
+    top: 16%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-14{
+    position: absolute;
+    left: 57.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.comentarios-foto-c{
+    position: absolute;
+    left: 75.68%;
+    right: 62.11%;
+    top: 16%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.caixa-galeria-8 {
+    position: absolute;
+    width: 193px;
+    height: 61px;
+    left: 916px;
+    right: 0%;
+    top: 1304px;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.emoji-15 {
+    position: absolute;
+    left: 2.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.coracoes-foto-d {
+    position: absolute;
+    left: 19.68%;
+    right: 62.11%;
+    top: 14%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
+
+.emoji-16 {
+    position: absolute;
+    left: 60.63%;
+    right: 81.58%;
+    top: 25%;
+    bottom: 25%
+}
+
+.comentarios-foto-d {
+    position: absolute;
+    left: 78.68%;
+    right: 62.11%;
+    top: 14%;
+    bottom: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.9%;
+    color: #FFFFFF;
+}
